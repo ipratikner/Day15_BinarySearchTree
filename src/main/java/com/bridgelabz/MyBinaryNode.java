@@ -6,8 +6,8 @@ public class MyBinaryNode<K extends Comparable<K>> {
     MyBinaryNode<K> right;
 
     public MyBinaryNode(K key) {
-        this.key = key;
-        this.left = null;
-        this.right = null;
+        this.key=key;
+        this.left=null;
+        this.right=null;
     }
 }
